@@ -1,0 +1,22 @@
+ALGORITHM algorithm_name
+VAR
+    arr1,arr2:array_name : ARRAY_OF INTEGER[10];
+    i,j,sum:INTEGER;
+BEGIN
+    sum:=0;
+    FOR i FROM 0 TO arr1.length  DO
+       FOR j FROM 0 TO arr2.length DO
+        IF (arr1[i]=arr2[j]) THEN
+            sum:=sum+arr[i]*2        
+            END_IF
+       END_FOR
+    END_FOR
+
+/* 
+   IF ( arr1[i] in arr2) THEN
+    sum:=sum+arr[i]*2 
+*/
+
+END_IF
+ Write (sum)
+END
